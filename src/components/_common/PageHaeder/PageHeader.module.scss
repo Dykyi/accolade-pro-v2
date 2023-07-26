@@ -1,0 +1,18 @@
+.pageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  min-height: 40px;
+}
+
+.pageTitle {
+  font-size: 24px;
+  line-height: 32px;
+  font-style: normal;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-transform: uppercase;
+}

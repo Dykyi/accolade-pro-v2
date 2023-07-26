@@ -1,0 +1,19 @@
+.layout {
+  max-height: 600px;
+  overflow-y: scroll;
+  padding: 24px 44px;
+  border: 1px solid #a1acb9;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #d8e6f5;
+    border: 1px solid rgba(71, 136, 211, 1);
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #4788d3;
+  }
+}
